@@ -89,7 +89,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<mainClass>com.inapp.nlp.netty.server.NLPServer</mainClass>
-							<classpathPrefix>dependency-jars/</classpathPrefix>
+							<classpathPrefix>./</classpathPrefix>
 						</manifest>
 					</archive>
 				</configuration>

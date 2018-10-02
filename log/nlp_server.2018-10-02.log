@@ -1,0 +1,167 @@
+14:46:15.735 [main] INFO  com.inapp.nlp.netty.server.NLPServer - Loading NLP Search engine ...
+14:46:15.741 [main] INFO  c.i.nlp.process.NLPSequenceSearcher - NLPSequenceSearcher creating instance ...
+14:46:15.741 [main] INFO  c.i.nlp.process.NLPSequenceSearcher - Loading the NLP Model ...
+14:46:15.742 [main] INFO  c.i.nlp.process.NLPSequenceSearcher - Reading sequence vectors from the NLP Model ...
+14:46:16.502 [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+14:46:17.638 [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 2
+14:46:18.224 [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 2
+14:46:18.251 [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Linux]
+14:46:18.251 [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [4]; Memory: [2.1GB];
+14:46:18.251 [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [MKL]
+14:46:26.659 [main] INFO  c.i.nlp.process.NLPSequenceSearcher - Model Loading Successful
+14:46:26.659 [main] INFO  c.i.nlp.process.NLPSequenceSearcher - NLP Model is loaded into memory ...
+14:46:26.659 [main] INFO  com.inapp.nlp.netty.server.NLPServer - Starting the server ...
+14:46:26.688 [main] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+14:46:26.691 [main] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+14:46:26.725 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+14:46:26.726 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+14:46:26.749 [main] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+14:46:26.750 [main] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 8
+14:46:26.751 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+14:46:26.752 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+14:46:26.753 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+14:46:26.755 [main] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: available
+14:46:26.756 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+14:46:26.757 [main] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+14:46:26.757 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+14:46:26.757 [main] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+14:46:26.758 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+14:46:26.758 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+14:46:26.760 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+14:46:26.762 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 2261254144 bytes
+14:46:26.763 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+14:46:26.764 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+14:46:26.775 [main] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+14:46:26.978 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 7025 (auto-detected)
+14:46:26.982 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+14:46:26.984 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+14:46:26.988 [main] DEBUG io.netty.util.NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+14:46:26.990 [main] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128
+14:46:26.993 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 02:42:54:ff:fe:ad:89:bb (auto-detected)
+14:46:27.018 [main] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+14:46:27.018 [main] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+14:46:27.041 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+14:46:27.041 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+14:46:27.091 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+14:46:27.091 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+14:46:27.091 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+14:46:27.092 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+14:46:27.093 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+14:46:27.093 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+14:46:27.093 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+14:46:27.093 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+14:46:27.093 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+14:46:27.095 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+14:46:27.095 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+14:46:27.115 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+14:46:27.115 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+14:46:27.115 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+14:46:27.149 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdb7cb16d] REGISTERED
+14:46:27.151 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdb7cb16d] BIND: 0.0.0.0/0.0.0.0:9191
+14:46:27.154 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdb7cb16d, L:/0:0:0:0:0:0:0:0:9191] ACTIVE
+14:47:03.592 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdb7cb16d, L:/0:0:0:0:0:0:0:0:9191] READ: [id: 0x35b3d404, L:/127.0.0.1:9191 - R:/127.0.0.1:36334]
+14:47:03.594 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdb7cb16d, L:/0:0:0:0:0:0:0:0:9191] READ COMPLETE
+14:47:03.612 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+14:47:03.612 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+14:47:03.612 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+14:47:03.612 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+14:47:03.618 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+14:47:03.619 [nioEventLoopGroup-3-1] DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@42f11b48
+14:47:03.633 [nioEventLoopGroup-3-1] INFO  c.i.nlp.netty.helpers.RequestDecoder - Request buffer length 6
+14:47:03.634 [nioEventLoopGroup-3-1] INFO  c.i.nlp.netty.helpers.RequestDecoder - Request decoder ... Query = kerala
+14:47:03.634 [nioEventLoopGroup-3-1] INFO  c.i.n.n.h.MessageInBoundRequestHandler - Channel Read complete....RequestData [Words =kerala]
+14:47:03.634 [nioEventLoopGroup-3-1] INFO  c.i.n.n.h.MessageInBoundRequestHandler - Request received... Query = kerala
+14:47:03.634 [nioEventLoopGroup-3-1] INFO  c.i.nlp.process.NLPSequenceSearcher - NLPSequenceSearcher finding sequence vector for word [kerala].
+14:47:03.635 [nioEventLoopGroup-3-1] INFO  c.i.nlp.process.NLPSequenceSearcher - Finding Words near to kerala
+14:47:03.893 [nioEventLoopGroup-3-1] INFO  c.i.nlp.process.NLPSequenceSearcher - Look up Time is : 258 MilliSeconds
+14:47:03.893 [nioEventLoopGroup-3-1] INFO  c.i.nlp.process.NLPSequenceSearcher - 10 Words closest to 'kerala': [recover, devastate, flooding, relief, flood, million, damage, landslide, text, immunology]
+14:47:03.893 [nioEventLoopGroup-3-1] INFO  c.i.n.n.h.MessageInBoundRequestHandler - Words = [recover, devastate, flooding, relief, flood, million, damage, landslide, text, immunology]
+14:47:03.894 [nioEventLoopGroup-3-1] INFO  c.i.n.n.helpers.ResponseDataEncoder - ResponseDataEncoder ... Encoding : [recover, devastate, flooding, relief, flood, million, damage, landslide, text, immunology]
+14:47:03.895 [nioEventLoopGroup-3-1] INFO  c.i.n.n.h.MessageInBoundRequestHandler - Sending response ... Data=ResponseData{Words =[recover, devastate, flooding, relief, flood, million, damage, landslide, text, immunology]}
+14:47:03.897 [nioEventLoopGroup-3-1] INFO  c.i.nlp.netty.helpers.RequestDecoder - Request buffer length 1801810529
+14:47:03.897 [nioEventLoopGroup-3-1] INFO  c.i.nlp.netty.helpers.RequestDecoder - Cannot process requests with characters length = 1801810529
+14:47:03.906 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdb7cb16d, L:/0:0:0:0:0:0:0:0:9191] READ: [id: 0x6705bd8f, L:/127.0.0.1:9191 - R:/127.0.0.1:36336]
+14:47:03.908 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0xdb7cb16d, L:/0:0:0:0:0:0:0:0:9191] READ COMPLETE
+14:47:03.909 [nioEventLoopGroup-3-2] INFO  c.i.nlp.netty.helpers.RequestDecoder - Request buffer length 7
+14:47:03.910 [nioEventLoopGroup-3-2] INFO  c.i.nlp.netty.helpers.RequestDecoder - Request decoder ... Query = america
+14:47:03.910 [nioEventLoopGroup-3-2] INFO  c.i.n.n.h.MessageInBoundRequestHandler - Channel Read complete....RequestData [Words =america]
+14:47:03.910 [nioEventLoopGroup-3-2] INFO  c.i.n.n.h.MessageInBoundRequestHandler - Request received... Query = america
+14:47:03.910 [nioEventLoopGroup-3-2] INFO  c.i.nlp.process.NLPSequenceSearcher - NLPSequenceSearcher finding sequence vector for word [america].
+14:47:03.910 [nioEventLoopGroup-3-2] INFO  c.i.nlp.process.NLPSequenceSearcher - Finding Words near to america
+14:47:03.982 [nioEventLoopGroup-3-2] INFO  c.i.nlp.process.NLPSequenceSearcher - Look up Time is : 72 MilliSeconds
+14:47:03.992 [nioEventLoopGroup-3-2] INFO  c.i.nlp.process.NLPSequenceSearcher - 10 Words closest to 'america': [got, s_got_talent, slave, a_slave, chicago_fire, the_butler, showsfilms, butler, hannibal, talent]
+14:47:03.992 [nioEventLoopGroup-3-2] INFO  c.i.n.n.h.MessageInBoundRequestHandler - Words = [got, s_got_talent, slave, a_slave, chicago_fire, the_butler, showsfilms, butler, hannibal, talent]
+14:47:03.992 [nioEventLoopGroup-3-2] INFO  c.i.n.n.helpers.ResponseDataEncoder - ResponseDataEncoder ... Encoding : [got, s_got_talent, slave, a_slave, chicago_fire, the_butler, showsfilms, butler, hannibal, talent]
+14:47:03.993 [nioEventLoopGroup-3-2] INFO  c.i.n.n.h.MessageInBoundRequestHandler - Sending response ... Data=ResponseData{Words =[got, s_got_talent, slave, a_slave, chicago_fire, the_butler, showsfilms, butler, hannibal, talent]}
+14:47:03.993 [nioEventLoopGroup-3-2] INFO  c.i.nlp.netty.helpers.RequestDecoder - Request buffer length 1634559346
+14:47:03.999 [nioEventLoopGroup-3-2] INFO  c.i.nlp.netty.helpers.RequestDecoder - Cannot process requests with characters length = 1634559346
+15:10:58.766 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  com.inapp.nlp.netty.server.NLPServer - Loading NLP Search engine ...
+15:10:58.771 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  c.i.nlp.process.NLPSequenceSearcher - NLPSequenceSearcher creating instance ...
+15:10:58.771 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  c.i.nlp.process.NLPSequenceSearcher - Loading the NLP Model ...
+15:10:58.772 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  c.i.nlp.process.NLPSequenceSearcher - Reading sequence vectors from the NLP Model ...
+15:10:59.422 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+15:11:00.497 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 2
+15:11:03.007 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 2
+15:11:03.043 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Linux]
+15:11:03.043 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [2]; Memory: [1.7GB];
+15:11:03.044 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [MKL]
+15:11:13.244 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  c.i.nlp.process.NLPSequenceSearcher - Model Loading Successful
+15:11:13.244 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  c.i.nlp.process.NLPSequenceSearcher - NLP Model is loaded into memory ...
+15:11:13.245 [com.inapp.nlp.netty.server.NLPServer.main()] INFO  com.inapp.nlp.netty.server.NLPServer - Starting the server ...
+15:11:13.326 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+15:11:13.344 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 4
+15:11:13.413 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+15:11:13.413 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+15:11:13.443 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+15:11:13.443 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 8
+15:11:13.449 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+15:11:13.450 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+15:11:13.451 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+15:11:13.452 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: available
+15:11:13.453 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+15:11:13.454 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+15:11:13.454 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+15:11:13.454 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+15:11:13.463 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+15:11:13.464 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+15:11:13.465 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+15:11:13.466 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1791492096 bytes
+15:11:13.466 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+15:11:13.467 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+15:11:13.481 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+15:11:13.645 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 8497 (auto-detected)
+15:11:13.648 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+15:11:13.654 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+15:11:13.670 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.util.NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+15:11:13.671 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128
+15:11:13.681 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: d0:27:88:ff:fe:eb:8b:e5 (auto-detected)
+15:11:13.720 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+15:11:13.720 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+15:11:13.730 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+15:11:13.731 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+15:11:13.771 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 4
+15:11:13.771 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 4
+15:11:13.771 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+15:11:13.771 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+15:11:13.772 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+15:11:13.772 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+15:11:13.773 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+15:11:13.773 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+15:11:13.774 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+15:11:13.774 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+15:11:13.774 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+15:11:13.795 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+15:11:13.796 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+15:11:13.796 [com.inapp.nlp.netty.server.NLPServer.main()] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+15:11:13.830 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32ff5dd1] REGISTERED
+15:11:13.832 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32ff5dd1] BIND: 0.0.0.0/0.0.0.0:9191
+15:11:13.838 [nioEventLoopGroup-2-1] DEBUG i.n.handler.logging.LoggingHandler - [id: 0x32ff5dd1, L:/0:0:0:0:0:0:0:0:9191] ACTIVE
+16:00:46.679 [main] INFO  c.i.nlp.process.NLPSequenceSearcher - NLPSequenceSearcher creating instance ...
+16:00:46.695 [main] INFO  c.i.nlp.process.NLPSequenceSearcher - Loading the NLP Model ...
+16:00:46.695 [main] INFO  c.i.nlp.process.NLPSequenceSearcher - Reading sequence vectors from the NLP Model ...
+16:00:47.195 [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+16:00:48.029 [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 2
+16:00:48.687 [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 2
+16:00:48.736 [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Linux]
+16:00:48.737 [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Cores: [2]; Memory: [1.7GB];
+16:00:48.737 [main] INFO  o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [MKL]
