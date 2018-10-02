@@ -1,2 +1,27 @@
-/target/
-/log/
+# Build directory for read-the-docs
+/docs/_build/
+
+.idea/
+.gradle/
+build/
+out/
+target/
+log/
+*.swp
+
+// intellij
+*.iml
+*.ipr
+*.iws
+
+// eclipse
+.project
+.classpath
+eclipse-build
+*/.project
+*/.classpath
+*/eclipse-build
+.settings
+!/.settings/org.eclipse.core.resources.prefs
+!/.settings/org.eclipse.jdt.core.prefs
+!/.settings/org.eclipse.jdt.ui.prefs
