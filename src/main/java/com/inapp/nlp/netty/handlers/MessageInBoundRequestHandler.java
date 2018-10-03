@@ -20,7 +20,7 @@ public class MessageInBoundRequestHandler extends SimpleChannelInboundHandler<Re
 		if (!sQuery.trim().equalsIgnoreCase("Hi")) {
 			Collection<String> sWords = null;
 			try {
-				sWords = NLPSequenceSearcher.getInstance().findNearWords(sQuery);
+				sWords = NLPSequenceSearcher.getInstance().findNearWords(sQuery.replaceAll("'", ""));
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
